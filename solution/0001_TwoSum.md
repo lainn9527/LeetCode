@@ -46,6 +46,7 @@ public:
 };
 ```
 ## 使用 hash 快速解
+參考大神 [3]
 ```C++
 class Solution {
 public:
@@ -119,4 +120,7 @@ for (auto i: v)
 
 # Reference
 [1] https://stackoverflow.com/questions/12702561/iterate-through-a-c-vector-using-a-for-loop
+
 [2] https://stackoverflow.com/questions/2152986/what-is-the-most-effective-way-to-get-the-index-of-an-iterator-of-an-stdvector
+
+[3] https://leetcode.com/problems/two-sum/discuss/13/Accepted-C%2B%2B-O(n)-Solution
