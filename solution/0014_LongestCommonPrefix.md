@@ -31,7 +31,8 @@ public:
     }
 };
 ```
-### 最佳解
+### 參考最佳解
+時間差不多啊
 ```C++
 class Solution {
 public:
@@ -39,7 +40,7 @@ public:
         string mp = "";
         for (int i = 0; strs.size() > 0; ++i) {
             for (int j = 0; j < strs.size(); ++j) {
-                if ( i >= strs[j].length() || (j > 0 && strs[j][i] != strs[j-1][i]))
+                if ( i >= strs[j].length() || strs[j][i] != strs[0][i])
                     return mp;
             }
             mp += strs[0][i];
